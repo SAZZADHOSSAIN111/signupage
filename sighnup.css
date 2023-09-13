@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(101, 200, 249);
+}
+
+.main-container{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.blueshape{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(to top, rgb(34, 34, 246), rgb(72, 72, 248));
+    background-color: rgb(122, 83, 251);
+    border-radius: 7%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;   
+    justify-content: center;
+    align-items: center;
+
+
+}
+.great{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.theresult{
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center ;
+    font-size: 15px;
+}
+.circle{
+    transform: translate(8px, 0px);
+    border-radius: 50%;
+    background-image: linear-gradient(to top, rgba(55, 55, 247, 0), rgba(125, 79, 243, 0.408));
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.number{
+    transform: translate(-0px, 15px);
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.of{
+   transform: translate(-0px, -15px);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}
+
+.you{  position: relative;
+    top: -20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.left-side{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: grid;
+    grid-template-rows:  50px 50px 50px 50px ;
+    row-gap: 10px;
+}
+
+.summary{
+    color: rgb(72, 59, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 21px;
+    font-weight: bold;
+}
+.box{
+    background-color: red;
+    width: 260px;
+    height: 50px;
+    transform: translate(20px,10px);
+    border-radius: 10px;
+
+}
+
+.stbox{
+    background-color: rgba(247, 76, 102, 0.122);
+    display: grid;
+    grid-template-columns: auto  auto;
+    align-items: center;
+}
+
+.ndbox{
+    background-color: rgba(100, 210, 210, 0.341);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 10px;
+}
+.rdbox{
+    background-color: rgba(210, 197, 100, 0.36);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 10px
+}
+
+.thbox{
+    background-color: rgba(210, 100, 148, 0.242);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 10px
+}
+.left-icon{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    column-gap: 10px;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+
+
+}
+
+.reaction{
+    color: rgb(239, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.right-number{
+    color: rgb(105, 78, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: right;
+    margin-right: 15px;
+    column-gap: 5px;   
+
+
+}
+.a86{
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.button{
+    background-color: rgb(38, 45, 91);
+    width: 230px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    justify-self: center;  
+}
+
+.button:active{
+ background-image: linear-gradient(to top, rgba(29, 29, 245, 0.581), rgba(122, 57, 253, 0.613));
+}
+
+.Continue{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
